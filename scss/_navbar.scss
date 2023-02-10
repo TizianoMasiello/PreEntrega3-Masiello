@@ -1,0 +1,13 @@
+nav.navbar {
+  background-color: $primary-color;
+
+  a {
+    color: white;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.65;
+      color: white;
+    }
+  }
+}
