@@ -10,4 +10,25 @@ nav.navbar a:hover {
   color: white;
 }
 
+footer {
+  background-color: #7b253d;
+}
+footer .a__decoration {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer .a__decoration:hover {
+  opacity: 0.65;
+  color: white;
+}
+footer a.sn:hover {
+  opacity: 0.65;
+}
+
+@media (max-width: 768px) {
+  .size {
+    font-size: xx-small;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

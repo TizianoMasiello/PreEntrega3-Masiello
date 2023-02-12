@@ -1,0 +1,22 @@
+footer {
+  background-color: $primary-color;
+
+  .a__decoration {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.65;
+      color: white;
+    }
+  }
+  a.sn:hover {
+    opacity: 0.65;
+  }
+}
+
+@media (max-width: 768px) {
+  .size {
+    font-size: xx-small;
+  }
+}
