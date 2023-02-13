@@ -30,5 +30,21 @@ footer a.sn:hover {
     font-size: xx-small;
   }
 }
+main {
+  background-color: #373434;
+}
+main .section__intro {
+  background-color: #373434;
+}
+main .section__intro .img__teatinos {
+  width: 7rem;
+  height: 7rem;
+}
+main .section__frase {
+  background-color: #373434;
+}
+main .section__frase .img__ingreso {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
