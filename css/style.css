@@ -56,12 +56,28 @@ footer a.sn:hover {
 .section-niveles .color-card {
   background-color: #373434;
 }
+.section-niveles .img__niveles {
+  width: 75%;
+  height: 40%;
+  align-self: center;
+  padding-top: 1rem;
+}
 
 .section-inscripciones {
   background-color: #373434;
 }
 .section-inscripciones .h1__inscripciones {
   font-size: 90px;
+}
+
+section {
+  background-color: #373434;
+}
+
+.img__project {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

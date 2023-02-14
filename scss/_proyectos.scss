@@ -1,0 +1,13 @@
+section {
+  background-color: $secondary-color;
+}
+
+@mixin imagen-diseño($height, $width, $borrad) {
+  height: $height;
+  width: $width;
+  border-radius: $borrad;
+}
+
+.img__project {
+  @include imagen-diseño(20rem, 30rem, 10px);
+}
