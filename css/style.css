@@ -30,21 +30,31 @@ footer a.sn:hover {
     font-size: xx-small;
   }
 }
-main {
+.main-index {
   background-color: #373434;
 }
-main .section__intro {
+.main-index .section__intro {
   background-color: #373434;
 }
-main .section__intro .img__teatinos {
+.main-index .section__intro .img__teatinos {
   width: 7rem;
   height: 7rem;
 }
-main .section__frase {
+.main-index .section__frase {
   background-color: #373434;
 }
-main .section__frase .img__ingreso {
+.main-index .section__frase .img__ingreso {
   width: 100%;
+}
+
+.section-niveles {
+  background-color: #373434;
+}
+.section-niveles .h1__niveles {
+  font-size: 90px;
+}
+.section-niveles .color-card {
+  background-color: #373434;
 }
 
 /*# sourceMappingURL=style.css.map */
