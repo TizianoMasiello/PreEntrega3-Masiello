@@ -57,4 +57,11 @@ footer a.sn:hover {
   background-color: #373434;
 }
 
+.section-inscripciones {
+  background-color: #373434;
+}
+.section-inscripciones .h1__inscripciones {
+  font-size: 90px;
+}
+
 /*# sourceMappingURL=style.css.map */
