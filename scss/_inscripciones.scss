@@ -1,7 +1,26 @@
-.section-inscripciones {
-  background-color: $secondary-color;
+.titulo-galeria {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 5px #cdcdcd;
+  animation: flotar 3s linear infinite alternate;
 
-  .h1__inscripciones {
-    font-size: 90px;
+  @keyframes flotar {
+    from {
+      transform: rotate(5deg);
+    }
+    to {
+      transform: rotate(-5deg);
+    }
+  }
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.7rem;
+
+  img {
+    width: 100%;
   }
 }

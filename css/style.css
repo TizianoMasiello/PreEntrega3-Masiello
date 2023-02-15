@@ -1,18 +1,124 @@
-/* Error: expected "{".
- *    ,
- * 14 | Check me out
- *    |             ^
- *    '
- *   scss\_navbar.scss 14:13  @import
- *   scss\style.scss 2:9      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 14 \2502  Check me out\a    \2502              ^\a    \2575 \a   scss\\_navbar.scss 14:13  @import\a   scss\\style.scss 2:9      root stylesheet';
+nav.navbar {
+  background-color: #7b253d;
 }
+nav.navbar a {
+  color: white;
+  text-transform: uppercase;
+}
+nav.navbar a:hover {
+  opacity: 0.65;
+  color: white;
+}
+
+footer {
+  background-color: #7b253d;
+}
+footer .a__decoration {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer .a__decoration:hover {
+  opacity: 0.65;
+  color: white;
+}
+footer a.sn:hover {
+  opacity: 0.65;
+}
+
+@media (max-width: 768px) {
+  .size {
+    font-size: xx-small;
+  }
+}
+.main-index {
+  background-color: #373434;
+}
+.main-index .section__intro {
+  background-color: #373434;
+}
+.main-index .section__intro .img__teatinos {
+  width: 7rem;
+  height: 7rem;
+}
+.main-index .section__frase {
+  background-color: #373434;
+}
+.main-index .section__frase .img__ingreso {
+  width: 100%;
+}
+
+.section-niveles {
+  background-color: #373434;
+}
+.section-niveles .h1__niveles {
+  font-size: 90px;
+}
+.section-niveles .color-card {
+  background-color: #373434;
+}
+.section-niveles .img__niveles {
+  width: 95%;
+  height: 95%;
+  align-self: center;
+  padding-top: 1rem;
+}
+
+.titulo-galeria {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 5px #cdcdcd;
+  animation: flotar 3s linear infinite alternate;
+}
+@keyframes flotar {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.7rem;
+}
+.fotos img {
+  width: 100%;
+}
+
+section {
+  background-color: #373434;
+}
+
+.img__project {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 10px;
+}
+
+.div__a-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__a-btn .btn-a {
+  text-decoration: none;
+  padding: 40px 80px;
+  color: white;
+  border: 3px solid white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "roboto";
+  font-weight: 300;
+  letter-spacing: -2px;
+  transition: all 0.5s;
+}
+.div__a-btn .btn-a:hover {
+  font-weight: 900;
+  letter-spacing: 10px;
+  border: 7px solid #7b253d;
+}
+
+/*# sourceMappingURL=style.css.map */
