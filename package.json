@@ -1,12 +1,12 @@
 {
-  "name": "preentrega3-masiello",
+  "name": "colegio-san-cayetano",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina del Colegio San Cayetano Con nivel Inicial, Primario y Secundario",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Masiello Tiziano Marcos",
   "license": "ISC"
 }
