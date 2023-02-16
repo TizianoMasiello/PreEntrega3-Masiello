@@ -1,15 +1,19 @@
-.titulo-galeria {
-  font-size: 4rem;
-  letter-spacing: 5px;
-  text-shadow: 4px 4px 5px #cdcdcd;
-  animation: flotar 3s linear infinite alternate;
+body.inscripciones {
+  font-family: "Playfair Display", serif;
 
-  @keyframes flotar {
-    from {
-      transform: rotate(5deg);
-    }
-    to {
-      transform: rotate(-5deg);
+  .titulo-galeria {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 5px #cdcdcd;
+    animation: flotar 3s linear infinite alternate;
+
+    @keyframes flotar {
+      from {
+        transform: rotate(5deg);
+      }
+      to {
+        transform: rotate(-5deg);
+      }
     }
   }
 }

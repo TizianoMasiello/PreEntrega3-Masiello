@@ -30,6 +30,10 @@ footer a.sn:hover {
     font-size: xx-small;
   }
 }
+body.index {
+  font-family: "Playfair Display", serif;
+}
+
 .main-index {
   background-color: #373434;
 }
@@ -45,6 +49,25 @@ footer a.sn:hover {
 }
 .main-index .section__frase .img__ingreso {
   width: 100%;
+}
+
+body.niveles {
+  font-family: "Playfair Display", serif;
+}
+body.niveles .section-niveles {
+  background-color: #373434;
+}
+body.niveles .section-niveles .h1__niveles {
+  font-size: 90px;
+}
+body.niveles .section-niveles .color-card {
+  background-color: #373434;
+}
+body.niveles .section-niveles .img__niveles {
+  width: 95%;
+  height: 95%;
+  align-self: center;
+  padding-top: 1rem;
 }
 
 .section-niveles {
@@ -63,7 +86,10 @@ footer a.sn:hover {
   padding-top: 1rem;
 }
 
-.titulo-galeria {
+body.inscripciones {
+  font-family: "Playfair Display", serif;
+}
+body.inscripciones .titulo-galeria {
   font-size: 4rem;
   letter-spacing: 5px;
   text-shadow: 4px 4px 5px #cdcdcd;
@@ -88,14 +114,41 @@ footer a.sn:hover {
   width: 100%;
 }
 
-section {
+body.proyectos {
+  font-family: "Playfair Display", serif;
+}
+body.proyectos section {
   background-color: #373434;
 }
-
-.img__project {
+body.proyectos .img__project {
   height: 20rem;
   width: 30rem;
   border-radius: 10px;
+}
+
+body.contacto {
+  font-family: "Playfair Display", serif;
+}
+body.contacto .div__a-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body.contacto .div__a-btn .btn-a {
+  text-decoration: none;
+  padding: 40px 80px;
+  color: white;
+  border: 3px solid white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  transition: all 0.5s;
+}
+body.contacto .div__a-btn .btn-a:hover {
+  font-weight: 900;
+  letter-spacing: 10px;
+  border: 7px solid #7b253d;
 }
 
 .div__a-btn {
@@ -110,7 +163,6 @@ section {
   border: 3px solid white;
   text-transform: uppercase;
   font-size: 40px;
-  font-family: "roboto";
   font-weight: 300;
   letter-spacing: -2px;
   transition: all 0.5s;

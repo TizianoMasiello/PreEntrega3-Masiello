@@ -1,13 +1,17 @@
-section {
-  background-color: $secondary-color;
-}
+body.proyectos {
+  font-family: "Playfair Display", serif;
 
-@mixin imagen-diseño($height, $width, $borrad) {
-  height: $height;
-  width: $width;
-  border-radius: $borrad;
-}
+  section {
+    background-color: $secondary-color;
+  }
 
-.img__project {
-  @include imagen-diseño(20rem, 30rem, 10px);
+  @mixin imagen-diseño($height, $width, $borrad) {
+    height: $height;
+    width: $width;
+    border-radius: $borrad;
+  }
+
+  .img__project {
+    @include imagen-diseño(20rem, 30rem, 10px);
+  }
 }
