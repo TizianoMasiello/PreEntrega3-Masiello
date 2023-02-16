@@ -1,6 +1,10 @@
 body.inscripciones {
   font-family: "Playfair Display", serif;
 
+  .section-inscripciones {
+    background-color: $secondary-color;
+  }
+
   .titulo-galeria {
     font-size: 4rem;
     letter-spacing: 5px;
@@ -19,6 +23,7 @@ body.inscripciones {
 }
 
 .fotos {
+  background-color: $secondary-color;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
