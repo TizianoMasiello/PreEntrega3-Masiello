@@ -1,0 +1,45 @@
+/* Footer */
+
+@media (max-width: 768px) {
+  .size {
+    font-size: xx-small;
+  }
+}
+
+/* Index */
+
+@media (max-width: 576px) {
+  .carrusel {
+    padding-top: 3rem;
+  }
+
+  .frase__educacion {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+/* Proyectos */
+
+@media (max-width: 992px) {
+  .project {
+    text-align: center;
+  }
+  .project__info {
+    text-align: center;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .project {
+    text-align: center;
+  }
+  .project__info {
+    text-align: center;
+    padding-top: 2rem;
+    align-self: center;
+  }
+}

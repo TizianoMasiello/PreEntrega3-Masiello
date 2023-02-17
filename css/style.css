@@ -25,11 +25,6 @@ footer a.sn:hover {
   opacity: 0.65;
 }
 
-@media (max-width: 768px) {
-  .size {
-    font-size: xx-small;
-  }
-}
 body.index {
   font-family: "Playfair Display", serif;
 }
@@ -51,6 +46,14 @@ body.index {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .carrusel {
+    padding-top: 3rem;
+  }
+  .frase__educacion {
+    padding-top: 3rem;
+  }
+}
 body.niveles {
   font-family: "Playfair Display", serif;
 }
@@ -58,7 +61,7 @@ body.niveles .section-niveles {
   background-color: #373434;
 }
 body.niveles .section-niveles .h1__niveles {
-  font-size: 90px;
+  font-size: 80px;
 }
 body.niveles .section-niveles .color-card {
   background-color: #373434;
@@ -92,8 +95,8 @@ body.inscripciones {
 body.inscripciones .section-inscripciones {
   background-color: #373434;
 }
-body.inscripciones .titulo-galeria {
-  font-size: 4rem;
+body.inscripciones .aviso {
+  font-size: 3rem;
   letter-spacing: 5px;
   text-shadow: 4px 4px 5px #cdcdcd;
   animation: flotar 3s linear infinite alternate;
@@ -107,17 +110,6 @@ body.inscripciones .titulo-galeria {
   }
 }
 
-.fotos {
-  background-color: #373434;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 0.7rem;
-}
-.fotos img {
-  width: 100%;
-}
-
 body.proyectos {
   font-family: "Playfair Display", serif;
 }
@@ -128,6 +120,13 @@ body.proyectos .img__project {
   height: 20rem;
   width: 30rem;
   border-radius: 10px;
+}
+@media (max-width: 576px) {
+  body.proyectos .img__project {
+    height: 15rem;
+    width: 22rem;
+    border-radius: 10px;
+  }
 }
 
 body.contacto {
@@ -156,6 +155,42 @@ body.contacto .formulario .div__a-btn .btn-a:hover {
   font-weight: 900;
   letter-spacing: 10px;
   border: 7px solid #7b253d;
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  .size {
+    font-size: xx-small;
+  }
+}
+/* Index */
+@media (max-width: 576px) {
+  .carrusel {
+    padding-top: 3rem;
+  }
+  .frase__educacion {
+    padding-top: 3rem;
+  }
+}
+/* Proyectos */
+@media (max-width: 992px) {
+  .project {
+    text-align: center;
+  }
+  .project__info {
+    text-align: center;
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 1200px) {
+  .project {
+    text-align: center;
+  }
+  .project__info {
+    text-align: center;
+    padding-top: 2rem;
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,4 +14,10 @@ body.proyectos {
   .img__project {
     @include imagen-diseño(20rem, 30rem, 10px);
   }
+
+  @media (max-width: 576px) {
+    .img__project {
+      @include imagen-diseño(15rem, 22rem, 10px);
+    }
+  }
 }
